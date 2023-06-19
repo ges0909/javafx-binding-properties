@@ -9,8 +9,8 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-public class BindingPropertiesApplication extends Application {
-    Stage window;
+public class Main extends Application {
+    private Stage window;
 
     @Override
     public void start(final Stage stage) {
@@ -37,6 +37,6 @@ public class BindingPropertiesApplication extends Application {
     }
 
     public static void main(final String... args) {
-        launch(args);
+        Application.launch(args);
     }
 }
